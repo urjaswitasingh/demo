@@ -7,7 +7,7 @@ public class MainController {
 
     @GetMapping("/getUser")
     public String getUser(@PathVariable int userId){
-        System.out.println("userId"+ userId);
+        System.out.println("userIddddd"+ userId);
         return null;
     }
 
