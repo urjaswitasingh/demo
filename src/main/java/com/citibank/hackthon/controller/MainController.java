@@ -7,7 +7,12 @@ public class MainController {
 
     @GetMapping("/getUser")
     public String getUser(@PathVariable int userId){
-        System.out.println("userIddddd"+ userId);
+        System.out.println("userIdddddgit "+ userId);
+        // testing for git blame test
+        // test1
+        //test2
+        //test3
+        //test4
         return null;
     }
 
